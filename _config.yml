@@ -23,7 +23,7 @@ name: "March7th"
 description: "个人日志"
 url: https://sumalene.github.io/March7thBlog/
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "Jungjjeong/Jungjjeong.github.io"
+repository: "sumalene/sumalene.github.io"
 # teaser: "./assets/images/teaser.png"
 logo: "./assets/images/blog.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -121,7 +121,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Jungjjeong"
+      url: "https://github.com/Sumalene"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
