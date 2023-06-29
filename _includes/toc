@@ -1,0 +1,7 @@
+<aside class="sidebar__right">
+<nav class="toc" markdown="1">
+<header></header>
+*  Auto generated table of contents
+{:toc .toc__menu}
+</nav>
+</aside>

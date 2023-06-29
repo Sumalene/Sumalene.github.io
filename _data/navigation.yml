@@ -1,0 +1,28 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  - title: "Blog"
+    url: /blog/
+  - title: "Categories"
+    url: /categories/
+  - title: "About"
+    url: /about/
+
+docs:
+  - title: Web
+    url: /web/
+  - title: CS
+    url: /cs/
+  - title: Project
+    url: /project/
+  - title: TIL
+    url: /til/
+  - title: DevCourse
+    url: /devCourse/
+  - title: App
+    url: /app/
