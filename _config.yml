@@ -21,10 +21,10 @@ title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "March7th"
 description: "个人日志"
-url: https://sumalene.github.io
+url: https://sumalene.github.io/
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "sumalene/sumalene.github.io"
-# teaser: "./assets/images/teaser.png"
+repository: "Sumalene/March7thBlog/"
+# teaser: "./assets/images/teaser.png" ,这个是首页的图片
 logo: "./assets/images/blog.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -102,7 +102,8 @@ analytics:
 # Site Author
 author:
   name: "March7th"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "https://avatars.githubusercontent.com/u/124686994?v=4"
+  # 头像能否显示，取决于你的网络环境，如果你的网络环境不好，可以把头像放在你的github上，然后把上面的链接改成你的github上的链接
   bio: "技术拯救世界"
   location: "China"
   email:
