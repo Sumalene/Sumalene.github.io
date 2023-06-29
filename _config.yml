@@ -21,7 +21,7 @@ title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "March7th"
 description: "个人日志"
-url: https://sumalene.github.io/
+url: https://sumalene.github.io
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "sumalene/sumalene.github.io"
 # teaser: "./assets/images/teaser.png"
