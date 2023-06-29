@@ -15,13 +15,13 @@
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "zh-CN"
-title: "YYC_DEV"
+locale: "zh"
+title: "March7th_yoBlog"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "March7th"
 description: "个人日志"
-url: https://Jungjjeong.github.io
+url: https://sumalene.github.io/March7thBlog/
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "Jungjjeong/Jungjjeong.github.io"
 # teaser: "./assets/images/teaser.png"
