@@ -5,8 +5,8 @@ title: "About Me"
 
 author_profile: true
 ---
-<div style="padding-top:1.5em;">
-    <img src="https://raw.githubusercontent.com/Sumalene/march7th/main/Honkai_Star_Rail_logo.png" width="400px" class="align-center" style="border-radius: 50%;"/>
+<div style="padding-top:1.5em;"> 
+    <img src="https://avatars.githubusercontent.com/u/124686994?v=4" width="400px" class="align-center" style="border-radius: 50%;"/>
 </div>
 
 <div style="text-align:center">
