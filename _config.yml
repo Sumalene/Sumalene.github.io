@@ -15,7 +15,7 @@
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "zh"
+locale: "en"
 title: "March7th_yoBlog"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
@@ -104,7 +104,7 @@ author:
   name: "March7th"
   avatar: "https://avatars.githubusercontent.com/u/124686994?v=4"
   # 头像能否显示，取决于你的网络环境，如果你的网络环境不好，可以把头像放在你的github上，然后把上面的链接改成你的github上的链接
-  bio: "技术拯救世界"
+  bio: "Tech Otakus Save the World"
   location: "China"
   email:
   links:
@@ -125,7 +125,7 @@ author:
       url: "https://github.com/Sumalene"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/"
 
 # Site Footer
 footer:
