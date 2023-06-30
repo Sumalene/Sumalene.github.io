@@ -16,7 +16,7 @@ $indent-var: 0.7em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: "Nanum Gothic" !default;
+$sans-serif: "Microsoft YaHei" !default;
 $monospace: "Ubuntu Mono" !default;
 
 // /* sans serif typefaces */
@@ -67,7 +67,7 @@ $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
 $background-color: #fff !default;
-$code-background-color: #ececec !default;
+$code-background-color: #D5D5D5FF !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
@@ -170,8 +170,8 @@ $right-sidebar-width-wide: 320px !default;
    Other
    ========================================================================== */
 
-$border-radius: 4px !default;
-$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
+$border-radius: 6px !default;
+$box-shadow: 0 1px 2px rgba(0, 0, 0, 0.225) !default;
 $nav-height: 2em !default;
 $nav-toggle-height: 2rem !default;
 $navicon-width: 1.5rem !default;
