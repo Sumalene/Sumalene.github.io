@@ -5,7 +5,7 @@ categories: [Web, JavaScript]
 last_modified_at: 2022-08-16
 excerpt: "==和===，隐式类型转换,显式类型转换之间有什么区别？"
 header:
-  teaser: https://raw.githubusercontent.com/Sumalene/march7th/main/1576240804907.png
+  teaser: https://uploadstatic.mihoyo.com/bh3-wiki/2023/03/03/75216984/84bc5ae219025aa7b1a41f737b0d4861_1254439676903324710.png
 ---
 
 <br>
