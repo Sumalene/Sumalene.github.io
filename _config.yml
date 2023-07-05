@@ -16,7 +16,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "zh"
-title: "March7th_yoBlog"
+title: "YYOVERCE"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "March7th"
@@ -105,7 +105,7 @@ author:
   avatar: "https://avatars.githubusercontent.com/u/124686994?v=4"
   # 头像能否显示，取决于你的网络环境，如果你的网络环境不好，可以把头像放在你的github上，然后把上面的链接改成你的github上的链接
   bio: "Tech Otakus Save the World"
-  location: "China"
+  location: "China Teyvat"
   email:
   links:
     - label: "Email"
@@ -116,10 +116,10 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Sumalene"
