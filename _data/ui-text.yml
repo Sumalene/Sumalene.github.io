@@ -88,7 +88,7 @@ zh: &DEFAULT_ZH_HANS
   comments_title             : "评论"
   more_label                 : "了解更多"
   related_label              : "相关随笔"
-  follow_label               : "关注:"
+  follow_label               : "来自:"
   feed_label                 : "Feed"
   powered_by                 : "powered by"
   website_label              : "网站"
