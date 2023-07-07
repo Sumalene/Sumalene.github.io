@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "AI_简述分类算法1.回归"
-categories: [Web, AI]
+categories: [Web, JavaScript, AI , yoka]
 last_modified_at: 2023-07-09
 excerpt: "简述分类算法,回归"
 header:
