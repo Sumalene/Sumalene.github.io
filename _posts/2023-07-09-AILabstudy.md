@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[AI]简述分类算法1.回归"
-categories: [AI]
+categories: [TIL,AI]
 last_modified_at: 2023-07-08
 excerpt: "简述分类算法,回归"
 header:
