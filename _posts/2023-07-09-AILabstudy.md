@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "吐槽与见闻"
+title: "吐槽与见闻2"
 categories: [Web, JavaScript, AI , yoka]
-last_modified_at: 2023-05-20
+last_modified_at: 2023-05-21
 excerpt: "固定起始文章"
 header:
   teaser: https://uploadstatic.mihoyo.com/bh3-wiki/2021/10/20/6100274/c2e1b1e80c4c7b439e2888dcef42ee6f_7965043626809333549.jpg
