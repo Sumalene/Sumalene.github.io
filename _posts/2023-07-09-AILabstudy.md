@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "吐槽与见闻2"
-categories: [Web, JavaScript, AI , yoka]
+categories: [Web, JavaScript]
 last_modified_at: 2023-05-21
 excerpt: "固定起始文章"
 header:
