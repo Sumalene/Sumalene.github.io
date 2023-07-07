@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[AI]简述分类算法1.回归"
-categories: [Web , AI]
-last_modified_at: 2023-07-08
+title: "AI_简述分类算法1.回归"
+categories: [Web, AI]
+last_modified_at: 2023-07-09
 excerpt: "简述分类算法,回归"
 header:
   teaser: https://uploadstatic.mihoyo.com/bh3-wiki/2021/11/17/50494840/f316b18c0242f53d74933c234cfe6ccb_4892269007523428774.png
