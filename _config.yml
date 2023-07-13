@@ -16,14 +16,14 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "zh"
-title: "YYOVERCE"
+title: "YYOVERSE"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "March7th"
 description: "个人日志"
 url: https://sumalene.github.io/
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "Sumalene/March7thBlog/"
+repository: "Sumalene/Sumalene.github.io" 
 # teaser: "./assets/images/teaser.png" ,这个是首页的图片
 logo: "./assets/images/blog.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -125,7 +125,7 @@ author:
       url: "https://github.com/Sumalene"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
