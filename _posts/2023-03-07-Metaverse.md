@@ -8,7 +8,7 @@ header:
   teaser: https://uploadstatic.mihoyo.com/bh3-wiki/2021/10/20/6100274/c2e1b1e80c4c7b439e2888dcef42ee6f_7965043626809333549.jpg
 ---
 
-* Github Pages Server是跑在UTC时区下的，CN是UTC+8，Github Pages只会编译server的当前时刻之前的文件。所有发布时间改成前一天。
+* Github Pages Server是跑在UTC时区下的，CN是UTC+8，Github Pages只会编译server的当前时刻之前的文件。所有发布时间改成前一天。博客园不能当图床。
 
 ### 现在的工作领域:
 
