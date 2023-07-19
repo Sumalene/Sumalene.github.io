@@ -10,7 +10,8 @@ header:
 
 ## 卷积的神经网络 - 放大主要矛盾，减少训练量
 
-![image](https://images.cnblogs.com/cnblogs_com/blogs/783023/galleries/2328000/o_230719121135_image.png)
+![image](https://github.com/Sumalene/Sumalene.github.io/assets/124686994/3391997e-3420-4df3-9141-626778146bf0)
+
 
 水平方向延申
 
@@ -27,7 +28,8 @@ header:
 
 ## 循环的神经网络 - 增加隐藏层时序关联
 
-![image](https://images.cnblogs.com/cnblogs_com/blogs/783023/galleries/2328000/o_230719122121_image.png)
+![image](https://github.com/Sumalene/Sumalene.github.io/assets/124686994/367b1808-7ec5-45f1-954f-f2bfadcd2b24)
+
 
 添加了一个维度的变化（由上一次学习而来的短期记忆）
 
@@ -43,9 +45,10 @@ RNN的主要概念包括：
 
 ## LSTM长短期记忆网络 - 悠久的告别
 
-![image](https://images.cnblogs.com/cnblogs_com/blogs/783023/galleries/2328000/o_230719123510_image.png)
+![image](https://github.com/Sumalene/Sumalene.github.io/assets/124686994/a36fab02-2d7e-41a4-a33e-d4fe85c3a0f9)
 
-![image](https://images.cnblogs.com/cnblogs_com/blogs/783023/galleries/2328000/o_230719123358_image.png)
+![image](https://github.com/Sumalene/Sumalene.github.io/assets/124686994/73c37d56-b7d0-4d22-b171-cdd9f40cef87)
+
 
 多了一条与短期记忆交互的日记本链
 
