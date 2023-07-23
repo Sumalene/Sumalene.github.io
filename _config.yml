@@ -71,11 +71,13 @@ google:
   search_engine_id: # YOUR_SEARCH_ENGINE_ID
   instant_search: # false (default), true
 # SEO Related
-google_site_verification: eclzv9kDANNN1JfhB9UBetEOkQ38bXHGLHCcdu5d1vI
+google_site_verification: -CWctEXGczycnNIiVIUjieDbx8pAJXqxrVZVEYi-V0E
 bing_site_verification:
-naver_site_verification: 250f3e2a97eb149c99cd06cf40748a5d18136be5
+naver_site_verification: 
 yandex_site_verification:
 baidu_site_verification:
+
+# <meta name="google-site-verification" content="-CWctEXGczycnNIiVIUjieDbx8pAJXqxrVZVEYi-V0E" />
 
 # Social Sharing
 twitter:
