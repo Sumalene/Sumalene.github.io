@@ -72,12 +72,13 @@ google:
   instant_search: # false (default), true
 # SEO Related
 google_site_verification: -CWctEXGczycnNIiVIUjieDbx8pAJXqxrVZVEYi-V0E
-bing_site_verification:
+bing_site_verification: 2FAB4F941B693BA6DD4891D59DFC83C7
 naver_site_verification: 
 yandex_site_verification:
 baidu_site_verification:
 
 # <meta name="google-site-verification" content="-CWctEXGczycnNIiVIUjieDbx8pAJXqxrVZVEYi-V0E" />
+# <meta name="msvalidate.01" content="2FAB4F941B693BA6DD4891D59DFC83C7" />
 
 # Social Sharing
 twitter:
