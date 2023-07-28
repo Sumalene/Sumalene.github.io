@@ -6,11 +6,11 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  - title: "Blog"
+  - title: "笔记"
     url: /blog/
-  - title: "Categories"
+  - title: "目录"
     url: /categories/
-  - title: "About"
+  - title: "与我"
     url: /about/
 
 docs:
