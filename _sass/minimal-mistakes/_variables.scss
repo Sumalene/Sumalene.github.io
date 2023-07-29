@@ -19,9 +19,6 @@ $serif: Georgia, Times, serif !default;
 $sans-serif: "Microsoft YaHei" !default;
 $monospace: "Ubuntu Mono" !default;
 
-// /* sans serif typefaces */
-// $sans-serif-narrow: $sans-serif !default;
-// $helvetica: "Nanum Gothic" !default;
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif !default;
@@ -65,6 +62,7 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $deep-gray: mix(#000, $gray, 70%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
+$more-lighter-pink: mix(#fff, $pink, 73%) !default;
 
 $background-color: #fff !default;
 $code-background-color: #D5D5D5FF !default;
@@ -73,7 +71,7 @@ $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
-$footer-background-color: $lighter-gray !default;
+$footer-background-color: $more-lighter-pink !default;
 
 $primary-color: #6f777d !default;
 $success-color: #3fa63f !default;
