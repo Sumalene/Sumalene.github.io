@@ -21,5 +21,33 @@
 <!-- <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
  -->
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Powered by 七陆北. Theme by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+  &copy; {{ site.time | date: '%Y' }} March7th. Powered by 七陆北. Theme by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+  <span id="showsectime"></span>
 </div>
+ <script type="text/javascript">
+function NewDate(str) {
+    str = str.split('-');
+    var date = new Date();
+    date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+    date.setUTCHours(0, 0, 0, 0);
+    return date;
+}
+ function shows_time() {
+    var startTime = new Date("2023-05-18T00:00:00");
+    var currentTime = new Date();
+    var timeElapsed = currentTime.getTime() - startTime.getTime();
+    var secondsElapsed = Math.floor(timeElapsed / 1000);
+    var minutesElapsed = Math.floor(secondsElapsed / 60);
+    var hoursElapsed = Math.floor(minutesElapsed / 60);
+    var daysElapsed = Math.floor(hoursElapsed / 24);
+    hoursElapsed %= 24;
+    minutesElapsed %= 60;
+    secondsElapsed %= 60;
+    var hoursString = hoursElapsed < 10 ? "0" + hoursElapsed : hoursElapsed;
+    var minutesString = minutesElapsed < 10 ? "0" + minutesElapsed : minutesElapsed;
+    var secondsString = secondsElapsed < 10 ? "0" + secondsElapsed : secondsElapsed;
+    document.getElementById("showsectime").innerHTML = " 运行时锚 : " + daysElapsed + " Days, Timestamp: " + hoursString + ":" + minutesString + ":" + secondsString + "s";
+    setTimeout(shows_time, 1000);
+}
+ shows_time();
+</script>
