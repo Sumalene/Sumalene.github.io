@@ -14,7 +14,9 @@ Blog图标原创.基于[Jekyll](https://jekyllrb.com/)和[GitHub Pages]开发.�
 网站的源代码托管在[GitHub]上.just低代码静态网站,并不复杂.Assisted by JiyJung
 
 
-> 留言:Personally, I don't like the shadow of other people brought by fork, it's not good for development and customisation, and it doesn't bring the joy of originality. But in any case, you are welcome to share and fork!
+> 留言: Anyway , welcome to share u opinion!
+> 文章内容若无说明或注明情况下 , 默认遵循CC4.0协议( [知识共享 (Creative Commons) 署名 4.0公共许可协议](https://creativecommons.org/licenses/by/4.0/legalcode.zh-Hans) ) 转载请尽量加个名字
+
 > 对任何独立自主的来访者都建议基于原始代码(MinimalMis或其他更好的主题)建立博客.建议直接Hugo/typecho(自带commentsys),Wordps甚至集成ai插件,对live2d也更加友好
 
 <br>
