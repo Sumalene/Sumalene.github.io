@@ -11,7 +11,7 @@
 网站包含我过去工作和学习的范例,展示我在设计和开发方面的技能。
 
 Blog图标原创.基于[Jekyll](https://jekyllrb.com/)和[GitHub Pages]开发.主题和UI基于[Minimal Mistakes](https://mademistakes.com/work/jekyll-themes/minimal-mistakes/)修改(use fontawesome).已作较多自定义和样式调整.
-网站的源代码托管在[GitHub]上.justa低代码静态网站,并不复杂.由정지영姐(Kwangwoon University)指导.
+网站的源代码托管在[GitHub]上.just低代码静态网站,并不复杂.Assisted by JiyJung
 
 
 > 留言:Personally, I don't like the shadow of other people brought by fork, it's not good for development and customisation, and it doesn't bring the joy of originality. But in any case, you are welcome to share and fork!
