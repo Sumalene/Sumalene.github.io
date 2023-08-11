@@ -7,7 +7,7 @@
   <h1>Marth7th 个人博客</h1>
   
 <h3> 网站介绍: </h3>
-这是我的个人主页。目的是分享我可能的项目,博客,以及其他创意内容。网站包含我过去工作和学习的范例,展示我在开发方面的技能。
+这是我的个人主页。目的是分享我的日记,博客,etc。网站包含我工作和学习的范例,展示在开发方面的技能。
 
 技术:网站基于[Jekyll](https://jekyllrb.com/)和[GitHub Pages]开发.主题和UI基于[Minimal Mistakes](https://mademistakes.com/work/jekyll-themes/minimal-mistakes/)修改(use fontawesome).已作较多自定义和样式调整.
 网站的源代码托管在[GitHub](404)上. Reference from https://mmistakes.github.io/minimal-mistakes/
