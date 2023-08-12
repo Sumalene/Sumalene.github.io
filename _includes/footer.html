@@ -21,7 +21,7 @@
 <!-- <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
  -->
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} March7th|七陆北. Theme by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">MM</a>.
+  &copy; {{ site.time | date: '%Y' }} March7th | 七陆北 . Theme by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow"> M.M </a>.
   <span id="showsectime"></span>
 </div>
 <script type="text/javascript">
@@ -47,7 +47,7 @@
             var minutesString = minutesElapsed < 10 ? "0" + minutesElapsed : minutesElapsed;
             var secondsString = secondsElapsed < 10 ? "0" + secondsElapsed : secondsElapsed;
             var dateString = currentTime.toISOString().split('T')[0];
-            document.getElementById("showsectime").innerHTML = " Run-Anchor : " + daysElapsed + " Days,  " + dateString +"-"+ hoursString + ":" + minutesString + ":" + secondsString + "s";
+            document.getElementById("showsectime").innerHTML = " Run-Anchor : " + daysElapsed + " Days . " + dateString +". "+ hoursString + ":" + minutesString + ":" + secondsString + "s";
             setTimeout(shows_time, 1000);
         }
         shows_time();
