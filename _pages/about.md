@@ -11,7 +11,7 @@ author_profile: true
 
 <div style="text-align:center">
 
-<h3>Nineteen years old, A college student.</h3>
+<h3>Nineteen years old, A college student. Major: data science and big data technology</h3>
 <br>
 <span><strong>Github</strong> | <a href="https://github.com/Sumalene">March7th Github</a></span><br>
 <!-- <span><strong>Chatgpt</strong> | <a href="https://gpt.91chat-ai.com/chat">TmpGPT4free</a> <a href="http://chat.newstop.uk/#/chat">TmpGPT4free2</a></span><br> -->
