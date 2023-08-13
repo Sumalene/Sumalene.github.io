@@ -1,14 +1,14 @@
 {% if page.previous or page.next %}
 <nav class="pagination">
     {% if page.previous %}
-    <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}"> ◀ 前页  {{page.previous.title | default: "前页"}}</a>
+    <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}"> ◀ 前頁  {{page.previous.title | default: "前頁"}}</a>
     {% else %}
-    <a href="#" class="pagination--pager disabled">启源</a>
+    <a href="#" class="pagination--pager disabled">啟源</a>
     {% endif %}
     {% if page.next %}
-    <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">  后页 ▶  {{ page.next.title | default: "后页" }}</a>
+    <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">  後頁 ▶  {{ page.next.title | default: "後頁" }}</a>
     {% else %}
-    <a href="#" class="pagination--pager disabled">终焉</a>
+    <a href="#" class="pagination--pager disabled">終焉</a>
     {% endif %}
 </nav>
 {% endif %}
