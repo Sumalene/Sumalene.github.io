@@ -17,11 +17,11 @@
 
 > 文章内容若无说明或注明情况下 , 默认遵循CC4.0协议( [知识共享 (Creative Commons) 署名 4.0公共许可协议](https://creativecommons.org/licenses/by/4.0/legalcode.zh-Hans) ) 转载请尽量加个名字
 
-> 并不建议克隆该仓库,以免网站个人信息无意镶嵌而导致信息流错误指向 . 如果你对我的主页以及MM风格感兴趣 , 请 : [建站指南](https://jekyllcn.com/docs/home/) , [风格指南](https://mademistakes.com/work/jekyll-themes/minimal-mistakes/) , [示例网站](https://mmistakes.github.io/minimal-mistakes/) , 按步骤自己尝试搭建。
+> 并不建议克隆该仓库,以免网站个人信息无意镶嵌而导致信息流错误指向 . 如果你对我的主页以及MM风格感兴趣 , 请 : <a href="https://jekyllcn.com/docs/home/" target="_blank">建站指南</a> , <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" target="_blank">风格指南</a> , <a href="https://mmistakes.github.io/minimal-mistakes/" target="_blank">示例网站</a> , 按步骤自己尝试搭建。
 
 <br>
-  
-**预览**: [▶ Welcome To YYOVERCE ](https://sumalene.github.io/March7thBlog/)
+
+**预览**: <a href="https://sumalene.github.io/March7thBlog/" target="_blank">▶ Welcome To YYOVERCE</a>
   
 </div>
 
