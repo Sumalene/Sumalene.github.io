@@ -15,21 +15,21 @@ author_profile: true
         <tr>
             <td>Connect</td>
             <td><a href="https://github.com/Sumalene">GitHub</a></td>
-            <td>...</td> <!-- 待添加 -->
+            <td><a href="https://vlink.cc/march7th">Vlink</a></td> <!-- 待添加 -->
             <td>...</td> <!-- 待添加 -->
             <td>...</td> <!-- 待添加 -->
         </tr>
         <tr>
             <td>Web Tools</td>
-            <td><a href="http://www.aies.cn/">化繁为简</a></td>
-            <td>...</td> <!-- 待添加 -->
+            <td><a href="http://www.aies.cn/">繁简</a></td>
+            <td><a href="https://xinghuo.xfyun.cn/desk">星火</a></td> 
             <td>...</td> <!-- 待添加 -->
             <td>...</td> <!-- 待添加 -->
         </tr>
         <tr>
             <td>Link</td>
             <td><a href="https://travellings.cn/go.html">开往星穹</a></td>
-            <td>...</td> <!-- 待添加 -->
+            <td><a href="https://developer.android.google.cn/studio/intro?hl=zh-cn">安卓开发</a></td> 
             <td>...</td> <!-- 待添加 -->
             <td>...</td> <!-- 待添加 -->
         </tr>
