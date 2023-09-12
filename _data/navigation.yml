@@ -8,7 +8,7 @@ main:
   #   url: /year-archive/
   - title: "筆記"
   #  url: /blog/
-    url: glistening-taffy-4cecf9.netlify.app/
+    url: https://glistening-taffy-4cecf9.netlify.app/
   - title: "目錄"
     url: /categories/
   - title: "與我"
