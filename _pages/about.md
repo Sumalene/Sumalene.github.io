@@ -7,8 +7,7 @@ author_profile: true
 ---
 
 <div style="text-align: center;">
-    <table>
-        <table style="margin: 0 auto;">
+    <table style="margin: 0 auto;">
         <tr>
             <td rowspan="5"><img src="https://avatars.githubusercontent.com/u/124686994?v=4" width="370px" style="border-radius: 50%;"/></td>
             <td colspan="5">Frequently Sites</td> <!-- 待添加 -->
@@ -40,12 +39,5 @@ author_profile: true
         <tr>
             <td colspan="6">Nineteen years old, A college student. Major: data science and big data technology</td> <!-- 待添加 -->
         </tr>
-      </table>
     </table>
-    <hr> <!-- 水平分隔线 -->
-    <p>
-        Unfold this pair of wings for me again to soar above this world<br>
-        Turn into a moon that always tells the warmth and brightness of the sun<br>
-        May all the beauty be blessed
-    </p>
 </div>
