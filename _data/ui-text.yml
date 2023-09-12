@@ -84,7 +84,7 @@ zh: &DEFAULT_ZH_HANS
   tags_label                 : "标签:"
   categories_label           : "分类:"
   date_label                 : "更新时序:"
-  comments_label             : "笺注纷罗 (issue)"
+  comments_label             : "笺評 (issue)"
   comments_title             : "评论"
   more_label                 : "了解更多"
   related_label              : "相关随笔"
@@ -106,11 +106,11 @@ zh: &DEFAULT_ZH_HANS
   comment_success_msg        : "感谢您的评论！被批准后它会立即在此站点展示。"
   comment_error_msg          : "很抱歉，您的提交存在错误。请确保所有必填字段都已填写正确，然后再试一次。"
   loading_label              : "正在加载..."
-  search_label_text          : "输入要搜索的特征值..."
-  search_placeholder_text    : "输入要搜索的特征值..."
+  search_label_text          : "输入要搜索的內容..."
+  search_placeholder_text    : "输入要搜索的內容..."
   search_algolia_no_results  : "无结果No results"
   results_found              : "次解析匹配"
-  back_to_top                : "返回上界"
+  back_to_top                : "返回頂部"
 zh-CN:
   <<: *DEFAULT_ZH_HANS
 zh-SG:
