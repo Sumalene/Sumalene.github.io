@@ -8,7 +8,6 @@ author_profile: true
 
 <div style="text-align: center;">
     <table style="margin: 0 auto;">
-        <tbody style="text-align: center;">
         <tr>
             <td rowspan="5"><img src="https://avatars.githubusercontent.com/u/124686994?v=4" width="370px" style="border-radius: 50%;"/></td>
             <td colspan="5">Frequently Sites</td> <!-- 待添加 -->
@@ -40,6 +39,5 @@ author_profile: true
         <tr>
             <td colspan="6">Nineteen years old, A college student. Major: data science and big data technology</td> <!-- 待添加 -->
         </tr>
-        <tbody>
     </table>
 </div>
