@@ -40,6 +40,7 @@ author_profile: true
         <tr>
             <td colspan="6">Nineteen years old, A college student. Major: data science and big data technology</td> <!-- 待添加 -->
         </tr>
+      </table>
     </table>
     <hr> <!-- 水平分隔线 -->
     <p>
