@@ -5,18 +5,43 @@ title: "About Me"
 
 author_profile: true
 ---
-<div style="padding-top:1.5em;"> 
-    <img src="https://avatars.githubusercontent.com/u/124686994?v=4" width="200px" class="align-center" style="border-radius: 50%;"/>
+<div style="text-align: center;">
+  <table>
+    <tr>
+      <td rowspan="5"><img src="https://avatars.githubusercontent.com/u/124686994?v=4" width="370px" style="border-radius: 50%;"/></td>
+	<tr>
+      <td colspan="5">Frequently Sites</td> <!-- 待添加 -->
+    </tr>
+      <td>Connect</td>
+      <td><a href="https://github.com/Sumalene">GitHub</a></td>
+      <td>...</td> <!-- 待添加 -->
+	<td>...</td> <!-- 待添加 -->
+	<td>...</td> <!-- 待添加 -->
+    </tr>
+    <tr>
+      <td>WebTOOls</td>
+      <td><a href="http://www.aies.cn/">化繁为简</a></td>
+      <td>...</td> <!-- 待添加 -->
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td><a href="https://travellings.cn/go.html">开往星穹</a></td>
+      <td>...</td> <!-- 待添加 -->
+    </tr>
+    <tr>
+      <td colspan="6">Curriculum Vitae (CV)</td> <!-- 待添加 -->
+    </tr>
+	<tr>
+      <td colspan="6">Nineteen years old, A college student. Major: data science and big data technology</td> <!-- 待添加 -->
+    </tr>
+
+</table>
+
+---
+
+Unfold this pair of wings for me again to soar above this world
+Turn into a moon that always tells the warmth and brightness of the sun
+May all the beauty be blessed
+
 </div>
 
-<div style="text-align:center">
-
-  
-| ![Profile Picture](https://avatars.githubusercontent.com/u/124686994?v=4) | 
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **个人链接** | [GitHub](https://github.com/Sumalene) |
-| **WEB工具** | [化繁为简](http://www.aies.cn/) | 
-| **友链接力** | [开往星穹](https://travellings.cn/go.html) |
-
-
-</div>
