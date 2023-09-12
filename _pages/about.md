@@ -42,12 +42,13 @@ author_profile: true
         </tr>
     </table>
 
-<hr> <!-- 水平分隔线 -->
+    <hr> <!-- 水平分隔线 -->
 
-<p>
-    Unfold this pair of wings for me again to soar above this world<br>
-    Turn into a moon that always tells the warmth and brightness of the sun<br>
-    May all the beauty be blessed
-</p>
-
+    <p>
+        Unfold this pair of wings for me again to soar above this world<br>
+        Turn into a moon that always tells the warmth and brightness of the sun<br>
+        May all the beauty be blessed
+    </p>
+        
+    </table>
 </div>
