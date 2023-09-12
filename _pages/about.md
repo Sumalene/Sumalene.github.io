@@ -41,14 +41,10 @@ author_profile: true
             <td colspan="6">Nineteen years old, A college student. Major: data science and big data technology</td> <!-- 待添加 -->
         </tr>
     </table>
-
     <hr> <!-- 水平分隔线 -->
-
     <p>
         Unfold this pair of wings for me again to soar above this world<br>
         Turn into a moon that always tells the warmth and brightness of the sun<br>
         May all the beauty be blessed
     </p>
-        
-    </table>
 </div>
