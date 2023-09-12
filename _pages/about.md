@@ -12,7 +12,7 @@ author_profile: true
 <div style="text-align:center">
 
   
-| **Biography** | 
+| ![Profile Picture](https://avatars.githubusercontent.com/u/124686994?v=4) | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **个人链接** | [GitHub](https://github.com/Sumalene) |
 | **WEB工具** | [化繁为简](http://www.aies.cn/) | 
