@@ -6,8 +6,9 @@ title: "About Me"
 author_profile: true
 ---
 
-<div style="text-align: center;">
-    A college student. Major: Data Science And Big Data Technology
+<div align='center'>
+    *A college student. Major: Data Science And Big Data Technology*
+  
 </div>
 
 
