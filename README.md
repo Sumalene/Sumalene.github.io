@@ -21,7 +21,7 @@
 
 <br>
 
-**预览**: <a href="https://sumalene.github.io/March7thBlog/" target="_blank">▶ Welcome To YYOVERCE</a>
+**预览**: <a href="https://sumalene.github.io" target="_blank">▶ Welcome To YYOVERCE</a>
   
 </div>
 
