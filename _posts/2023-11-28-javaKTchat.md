@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Java基于Java和Kotlin的多人聊天"
+title: "[Java]基于Java和Kotlin的多人聊天"
 categories: [Java]
 last_modified_at: 2023-11-28
 excerpt: "学习和理解Java和Kotlin在网络编程中的应用，特别是Socket编程，以及如何在局域网下实现多人通讯"
