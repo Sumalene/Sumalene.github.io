@@ -125,7 +125,7 @@ author:
       url: "https://www.facebook.com/DonaldTrump"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Sumalene"
+      # url: "https://github.com/Sumalene"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
