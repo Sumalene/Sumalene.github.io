@@ -23,7 +23,7 @@ name: "March7th"
 description: "个人日志"
 url: https://sumalene.github.io
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "Sumalene/Sumalene.github.io" 
+repository: "https://march7th.me/" 
 # teaser: "./assets/images/teaser.png" ,这个是首页的图片
 logo: "./assets/images/blog.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
