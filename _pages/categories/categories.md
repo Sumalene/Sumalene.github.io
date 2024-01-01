@@ -4,8 +4,8 @@ permalink: categories/
 title: "Category"
 
 author_profile: true
-sidebar:
-  nav: "docs"
+# sidebar:
+#  nav: "docs"
 ---
 
 {% assign posts = site.categories.App %}
