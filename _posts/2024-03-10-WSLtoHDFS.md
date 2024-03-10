@@ -48,7 +48,8 @@ cd 进入hadoop-3.1.3 目录.开始配置
 
 - 指定 Hadoop 的默认文件系统是 HDFS。
 - 指定 HDFS 的 Namenode 地址和端口号。
-```xml
+  
+```
 <configuration>  
     <property>  
         <name>fs.defaultFS</name>  
@@ -61,7 +62,8 @@ cd 进入hadoop-3.1.3 目录.开始配置
 
 - `dfs.replication` 属性: 指定 HDFS 数据块的副本系数。(每个数据块DN存储几个副本)
 - `value` 元素: 指定 `dfs.replication` 属性的值，本例中为 `1`。(测试环境或资源有限)
-```xml
+
+```
 <configuration>  
     <property>  
         <name>dfs.replication</name>  
@@ -74,7 +76,8 @@ cd 进入hadoop-3.1.3 目录.开始配置
 
 - 确保YARN框架用于资源管理，并且MapReduce应用程序在集群上运行时可以访问必要的库。
 - 确保设置了`$HADOOP_MAPRED_HOME`环境变量。
-```xml
+  
+```
 <configuration>
      <property>
          <name>mapreduce.framework.name</name>
@@ -92,7 +95,8 @@ cd 进入hadoop-3.1.3 目录.开始配置
 - **JAVA_HOME:** 指定 Java 虚拟机的安装路径。Hadoop 需要 Java 才能运行，因此必须设置此变量。
 - **HDFS_NAMENODE_USER:** 指定 HDFS Namenode 进程运行的用户。
 - **HDFS_DATANODE_USER:** 指定 HDFS Datanode 进程运行的用户。...后略.
-```bash
+
+```
 export JAVA_HOME=/usr/lib/jvm/java-8-xxx # 上文提过的路径
 export HDFS_NAMENODE_USER=root # 或者当前用户名
 export HDFS_DATANODE_USER=root
@@ -100,6 +104,7 @@ export HDFS_SECONDARYNAMENODE_USER=root
 export YARN_RESOURCEMANAGER_USER=root
 export YARN_NODEMANAGER_USER=root
 ```
+
 ---
 伪分布式模式下，NameNode、DataNode、Secondary NameNode、ResourceManager 和 NodeManager 等组件都在同一台机器上运行，涵盖了 Hadoop 集群的基本功能.
 
