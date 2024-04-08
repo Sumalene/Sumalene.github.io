@@ -2,6 +2,27 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+body {
+    margin: 0;
+    background-image: url('https://img.sukasuka.cn/data/posts/2807_7cab8459e4de0a56.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* 媒体查询，针对小于600px宽度的设备 */
+@media (max-width: 600px) {
+    body {
+        background-image: url('https://img.sukasuka.cn/data/posts/5252_b1ec5337d23ba6b4.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+
+
 #main {
   @include clearfix;
   margin-left: auto;
