@@ -30,7 +30,8 @@ header:
 
 3. **路由迁移**：
    - 将Gin的路由定义转换为Fiber的格式。
-   ```go
+   
+```go
    // Gin
    r.GET("/ping", func(c *gin.Context) {
        c.JSON(200, gin.H{
@@ -42,21 +43,23 @@ header:
    app.Get("/ping", func(c *fiber.Ctx) error {
        return c.JSON(fiber.Map{"message": "pong"})
    })
-   ```
+```
 
 4. **中间件迁移**：
    - 将Gin的中间件替换为Fiber的中间件。
-   ```go
+  
+```go
    // Gin
    r.Use(gin.Logger())
 
    // Fiber
    app.Use(logger.New())
-   ```
+```
 
 5. **请求处理**：
    - 将Gin的上下文处理器转换为Fiber的上下文处理器。
-   ```go
+   
+```go
    // Gin
    func handler(c *gin.Context) {
        name := c.Query("name")
@@ -68,7 +71,7 @@ header:
        name := c.Query("name")
        return c.JSON(fiber.Map{"name": name})
    }
-   ```
+ ```
 
 > ...
 
