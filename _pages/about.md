@@ -20,7 +20,7 @@ author_profile: true
 
 **Yoniverse-Yae-Combo**
 
-|ˈkäm-bō | 组合 / コンボ | 
+|ˈkäm-bōˈ | 组合 / コンボ | 
 
 > A fusion of distinct elements into a unified, harmonious whole, like the flow of life where separate moments combine to create a meaningful rhythm.
 > In mathematics, it's a recursive function that takes a function as an argument and returns a new function.
