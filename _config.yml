@@ -19,7 +19,7 @@ locale: "zh"
 title: "YONIVERSE"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "March7th"
+name: "YAE-Combo"
 description: "个人日志"
 url: https://march7th.me
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name: "March7th"
+  name: "YAE-Combo"
   avatar: "https://avatars.githubusercontent.com/u/124686994?v=4"
   # 头像能否显示，取决于你的网络环境，如果你的网络环境不好，可以把头像放在你的github上，然后把上面的链接改成你的github上的链接
-  bio: "Tech Otakus Save the World"
+  bio: "水無定.花有盡.會相逢."
   location: "Shenzhen"
   email:
   links:
