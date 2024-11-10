@@ -4,13 +4,21 @@
 
 ![image](https://github.com/Sumalene/March7thBlog/assets/124686994/04842755-988d-4857-aa7b-307a3eb9f7d6)
 
-  <h1>Marth7th 个人博客</h1>
+  <h1>YAE-Combo 个人博客</h1>
   
 <h3> 网站介绍: </h3>
-这是我的个人主页。目的是分享我的日记,博客,etc。网站包含我工作和学习的范例,展示在开发方面的技能。
 
-技术:网站基于[Jekyll](https://jekyllrb.com/)和[GitHub Pages]开发.主题和UI基于[Minimal Mistakes](https://mademistakes.com/work/jekyll-themes/minimal-mistakes/)修改(use fontawesome).已作较多自定义和样式调整.
-网站的源代码托管在[GitHub](404)上. Reference from https://mmistakes.github.io/minimal-mistakes/
+
+**Yoniverse-Yae-Combo**
+
+|ˈkäm-bō | 组合 / コンボ | 
+
+> A fusion of distinct elements into a unified, harmonious whole, like the flow of life where separate moments combine to create a meaningful rhythm.
+> In mathematics, it's a recursive function that takes a function as an argument and returns a new function.
+
+
+**Tech** : The site is based on [Jekyll](https://jekyllrb.com/) and [GitHub Pages]. Theme and UI based on [Minimal Mistakes](https://mademistakes.com/work/jekyll-themes/minimal-mistakes/) modified (use fontawesome). A lot of customization and styling has been done.
+The source code is hosted on [GitHub](404). Reference from https://mmistakes.github.io/minimal-mistakes/
 
 ---
 <h3> 留言: </h3>
