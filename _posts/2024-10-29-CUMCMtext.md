@@ -145,6 +145,3 @@ It's all about the competition, ENJOY Coke.
 
 When we first formed the team, we said we'd take the cup and drink it.
 
-Wow, the team is excited. Everyone prepares for this, writing a question inside, writing a question at night, and finishing it in three days.
-
-But in the end, we gave up hahahahahahaha, mainly because we didn't have the strength.
