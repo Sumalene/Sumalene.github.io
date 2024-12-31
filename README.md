@@ -31,7 +31,7 @@ The source code is hosted on [GitHub](404). Reference from https://mmistakes.git
 
 **预览**: <a href="https://sumalene.github.io" target="_blank">▶ Welcome To YYCOSMO</a>
 
-Domain: https://march7th.me/
+used Domain: https://march7th.me/
   
 </div>
 
