@@ -21,7 +21,7 @@ title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "YAE-Combo"
 description: "个人日志"
-url: https://march7th.me
+url: Sumalene/Sumalene.github.io
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "Sumalene/Sumalene.github.io" 
 # teaser: "./assets/images/teaser.png" ,这个是首页的图片
