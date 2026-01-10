@@ -19,55 +19,59 @@ nav : "docs"
       box-shadow: 0 0 9px 5px rgba(84, 81, 81, 0.5); 
     }
   </style>
-<!--   <img id="backgroundpage" src="https://uploadstatic.mihoyo.com/bh3-wiki/2023/02/08/75216984/97ec2009b25378d34ebcf13c62fe089f_8096765097750935808.png" style="width: 100%;">
-   <script>
-    var imageUrls = [
-      "https://uploadstatic.mihoyo.com/bh3-wiki/2023/02/08/75216984/97ec2009b25378d34ebcf13c62fe089f_8096765097750935808.png",
-      "https://uploadstatic.mihoyo.com/bh3-wiki/2022/09/26/75216984/5cb47a9d9754e2fc0c5882238c463801_5551759213728569487.png",
-      "https://uploadstatic.mihoyo.com/bh3-wiki/2022/09/27/75216984/548746115af4520fbaa948e1d3827f6e_8838111804471395352.jpg",
-      "https://uploadstatic.mihoyo.com/bh3-wiki/2022/09/28/75216984/69478a9959d07f7fe0d4565e4b1f2d46_6070904941531564092.jpg",
-      "https://uploadstatic.mihoyo.com/bh3-wiki/2022/03/23/50494840/89286eb995c4eb87a45edc0979404e19_5472066492452988471.png",
-      "https://uploadstatic.mihoyo.com/bh3-wiki/2022/03/23/50494840/698f6c18003bf4827d27c34c617f02f2_1381689227568171944.jpg",
-      "https://uploadstatic.mihoyo.com/bh3-wiki/2022/03/23/50494840/753e08d56239a495d059a73c69b0d4a1_694320694002858715.png",
-      "https://uploadstatic.mihoyo.com/bh3-wiki/2022/09/27/75216984/48103b8ec933a2330c9366871312d12a_8792628375978272.jpg",
-      "https://act-upload.mihoyo.com/bh3-wiki/2023/10/01/75216984/3be2ad6451fa5a0847787619999f7f29_1589148949924108630.png",
-      "https://act-upload.mihoyo.com/bh3-wiki/2023/10/01/75216984/5d7e5907767683c3c79246480a6aa472_8701723515280982505.png",
-      // 添加更多图像URL
-    ];
-     function changeBackgroundImage() {
-      var imgElement = document.getElementById("backgroundpage");
-      var randomIndex = Math.floor(Math.random() * imageUrls.length);
-      imgElement.src = imageUrls[randomIndex];
-    }
-     changeBackgroundImage(); // 初始设置背景图像
-     setInterval(changeBackgroundImage, 37000); // 每37秒更换一次背景图像
-  </script> -->
 
-<!-- 
-<div class="bg"></div> -->
-<!-- 添加一个淡珂朵莉色渐变的的背景-->
-<!-- <style>
-    .bg{
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(135deg, rgba(187, 248, 248, 0.71) 37%, rgba(252, 228, 232, 0.68) 73%);
-        background-size: 400% 400%;
-        animation: moveBg 37s linear infinite;
-    }
-    @keyframes moveBg{
-        0%{
-            background-position: 0% 50%;
-        }
-        50%{
-            background-position: 100% 50%;
-        }
-        100%{
-            background-position: 0% 50%;
-        }
-    }
 
-</style> -->
+<script>
+(function() {
+    const CONFIG = {
+        live2d_path: "https://fastly.jsdelivr.net/gh/lrplrplrp/live2d@master/",
+        model_path: "https://ghproxy.net/https://raw.githubusercontent.com/lrplrplrp/live2d_api/refs/heads/master/",
+        minWidth: 768 
+    };
+    function loadResource(url, type) {
+        return new Promise((resolve, reject) => {
+            const el = type === 'css' 
+                ? Object.assign(document.createElement('link'), { rel: 'stylesheet', href: url })
+                : Object.assign(document.createElement('script'), { src: url });
+            
+            el.onload = () => resolve(url);
+            el.onerror = () => reject(url);
+            document.head.appendChild(el);
+        });
+    }
+    async function initLive2D() {
+        if (screen.width < CONFIG.minWidth) return;
+        
+        try {
+            await Promise.all([
+                loadResource(CONFIG.live2d_path + 'pixi.min.js', 'js'),
+                loadResource(CONFIG.live2d_path + 'live2d.min.js', 'js'),
+                loadResource(CONFIG.live2d_path + 'live2dcubismcore.min.js', 'js'),
+                loadResource('https://libs.baidu.com/jquery/2.0.0/jquery.min.js', 'js'),
+                loadResource(CONFIG.live2d_path + 'waifu.css', 'css'),
+                loadResource('https://cdn.bootcdn.net/ajax/libs/font-awesome/6.0.0/css/all.min.css', 'css')
+            ]);
+            
+            await loadResource(CONFIG.live2d_path + 'index.min.js', 'js');
+            await loadResource(CONFIG.live2d_path + 'waifu-tips.js', 'js');
+            await new Promise(resolve => {
+                const checkInit = () => typeof initWidget === 'function' ? resolve() : setTimeout(checkInit, 100);
+                checkInit();
+            });
+            
+            initWidget({
+                waifuPath: CONFIG.model_path + 'waifu-tips.json',
+                modelListPath: CONFIG.model_path + 'model_list.json',
+                modelPath: CONFIG.model_path
+            });
+        } catch (e) {
+            console.warn('Live2D加载失败，但不影响页面使用:', e);
+        }
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initLive2D);
+    } else {
+        setTimeout(initLive2D, 300);
+    }
+})();
+</script>
